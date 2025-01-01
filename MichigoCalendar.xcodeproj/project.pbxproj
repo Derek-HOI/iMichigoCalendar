@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EC2930162D252EE9008B33CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC292FF92D252EE7008B33CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2930002D252EE7008B33CC;
+			remoteInfo = MichigoCalendar;
+		};
+		EC2930202D252EE9008B33CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC292FF92D252EE7008B33CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2930002D252EE7008B33CC;
+			remoteInfo = MichigoCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2930012D252EE7008B33CC /* MichigoCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichigoCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2930152D252EE9008B33CC /* MichigoCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichigoCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC29301F2D252EE9008B33CC /* MichigoCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichigoCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EC2930272D252EE9008B33CC /* Exceptions for "MichigoCalendar" folder in "MichigoCalendar" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EC2930002D252EE7008B33CC /* MichigoCalendar */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EC2930032D252EE7008B33CC /* MichigoCalendar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EC2930272D252EE9008B33CC /* Exceptions for "MichigoCalendar" folder in "MichigoCalendar" target */,
+			);
+			path = MichigoCalendar;
+			sourceTree = "<group>";
+		};
+		EC2930182D252EE9008B33CC /* MichigoCalendarTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MichigoCalendarTests;
+			sourceTree = "<group>";
+		};
+		EC2930222D252EE9008B33CC /* MichigoCalendarUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MichigoCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC292FFE2D252EE7008B33CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2930122D252EE9008B33CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29301C2D252EE9008B33CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC292FF82D252EE7008B33CC = {
+			isa = PBXGroup;
+			children = (
+				EC2930032D252EE7008B33CC /* MichigoCalendar */,
+				EC2930182D252EE9008B33CC /* MichigoCalendarTests */,
+				EC2930222D252EE9008B33CC /* MichigoCalendarUITests */,
+				EC2930022D252EE7008B33CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2930022D252EE7008B33CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2930012D252EE7008B33CC /* MichigoCalendar.app */,
+				EC2930152D252EE9008B33CC /* MichigoCalendarTests.xctest */,
+				EC29301F2D252EE9008B33CC /* MichigoCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2930002D252EE7008B33CC /* MichigoCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2930282D252EE9008B33CC /* Build configuration list for PBXNativeTarget "MichigoCalendar" */;
+			buildPhases = (
+				EC292FFD2D252EE7008B33CC /* Sources */,
+				EC292FFE2D252EE7008B33CC /* Frameworks */,
+				EC292FFF2D252EE7008B33CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EC2930032D252EE7008B33CC /* MichigoCalendar */,
+			);
+			name = MichigoCalendar;
+			packageProductDependencies = (
+			);
+			productName = MichigoCalendar;
+			productReference = EC2930012D252EE7008B33CC /* MichigoCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2930142D252EE9008B33CC /* MichigoCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC29302D2D252EE9008B33CC /* Build configuration list for PBXNativeTarget "MichigoCalendarTests" */;
+			buildPhases = (
+				EC2930112D252EE9008B33CC /* Sources */,
+				EC2930122D252EE9008B33CC /* Frameworks */,
+				EC2930132D252EE9008B33CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2930172D252EE9008B33CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC2930182D252EE9008B33CC /* MichigoCalendarTests */,
+			);
+			name = MichigoCalendarTests;
+			packageProductDependencies = (
+			);
+			productName = MichigoCalendarTests;
+			productReference = EC2930152D252EE9008B33CC /* MichigoCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC29301E2D252EE9008B33CC /* MichigoCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2930302D252EE9008B33CC /* Build configuration list for PBXNativeTarget "MichigoCalendarUITests" */;
+			buildPhases = (
+				EC29301B2D252EE9008B33CC /* Sources */,
+				EC29301C2D252EE9008B33CC /* Frameworks */,
+				EC29301D2D252EE9008B33CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2930212D252EE9008B33CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC2930222D252EE9008B33CC /* MichigoCalendarUITests */,
+			);
+			name = MichigoCalendarUITests;
+			packageProductDependencies = (
+			);
+			productName = MichigoCalendarUITests;
+			productReference = EC29301F2D252EE9008B33CC /* MichigoCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC292FF92D252EE7008B33CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EC2930002D252EE7008B33CC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EC2930142D252EE9008B33CC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EC2930002D252EE7008B33CC;
+					};
+					EC29301E2D252EE9008B33CC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EC2930002D252EE7008B33CC;
+					};
+				};
+			};
+			buildConfigurationList = EC292FFC2D252EE7008B33CC /* Build configuration list for PBXProject "MichigoCalendar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC292FF82D252EE7008B33CC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC2930022D252EE7008B33CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2930002D252EE7008B33CC /* MichigoCalendar */,
+				EC2930142D252EE9008B33CC /* MichigoCalendarTests */,
+				EC29301E2D252EE9008B33CC /* MichigoCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC292FFF2D252EE7008B33CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2930132D252EE9008B33CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29301D2D252EE9008B33CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC292FFD2D252EE7008B33CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2930112D252EE9008B33CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC29301B2D252EE9008B33CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2930172D252EE9008B33CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2930002D252EE7008B33CC /* MichigoCalendar */;
+			targetProxy = EC2930162D252EE9008B33CC /* PBXContainerItemProxy */;
+		};
+		EC2930212D252EE9008B33CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2930002D252EE7008B33CC /* MichigoCalendar */;
+			targetProxy = EC2930202D252EE9008B33CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC2930292D252EE9008B33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MichigoCalendar/MichigoCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MichigoCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = B46C3NZC6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MichigoCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC29302A2D252EE9008B33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MichigoCalendar/MichigoCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MichigoCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = B46C3NZC6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MichigoCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC29302B2D252EE9008B33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC29302C2D252EE9008B33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC29302E2D252EE9008B33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B46C3NZC6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MichigoCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MichigoCalendar";
+			};
+			name = Debug;
+		};
+		EC29302F2D252EE9008B33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B46C3NZC6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MichigoCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MichigoCalendar";
+			};
+			name = Release;
+		};
+		EC2930312D252EE9008B33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B46C3NZC6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MichigoCalendar;
+			};
+			name = Debug;
+		};
+		EC2930322D252EE9008B33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B46C3NZC6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MichigoCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC292FFC2D252EE7008B33CC /* Build configuration list for PBXProject "MichigoCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC29302B2D252EE9008B33CC /* Debug */,
+				EC29302C2D252EE9008B33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2930282D252EE9008B33CC /* Build configuration list for PBXNativeTarget "MichigoCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2930292D252EE9008B33CC /* Debug */,
+				EC29302A2D252EE9008B33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC29302D2D252EE9008B33CC /* Build configuration list for PBXNativeTarget "MichigoCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC29302E2D252EE9008B33CC /* Debug */,
+				EC29302F2D252EE9008B33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2930302D252EE9008B33CC /* Build configuration list for PBXNativeTarget "MichigoCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2930312D252EE9008B33CC /* Debug */,
+				EC2930322D252EE9008B33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC292FF92D252EE7008B33CC /* Project object */;
+}
