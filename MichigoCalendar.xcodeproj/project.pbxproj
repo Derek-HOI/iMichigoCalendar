@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EC2930512D2B8923008B33CC /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930502D2B8923008B33CC /* Swinject */; };
+		EC2930552D2B9C0C008B33CC /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930542D2B9C0C008B33CC /* CombineMoya */; };
+		EC2930572D2B9C0C008B33CC /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930562D2B9C0C008B33CC /* Moya */; };
+		EC2930592D2B9C0C008B33CC /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930582D2B9C0C008B33CC /* ReactiveMoya */; };
+		EC29305B2D2B9C0C008B33CC /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC29305A2D2B9C0C008B33CC /* RxMoya */; };
+		EC29305D2D2B9C21008B33CC /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC29305C2D2B9C21008B33CC /* CombineMoya */; };
+		EC29305F2D2B9C21008B33CC /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = EC29305E2D2B9C21008B33CC /* Moya */; };
+		EC2930612D2B9C21008B33CC /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930602D2B9C21008B33CC /* ReactiveMoya */; };
+		EC2930632D2B9C21008B33CC /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930622D2B9C21008B33CC /* RxMoya */; };
+		EC2930652D2B9C31008B33CC /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930642D2B9C31008B33CC /* CombineMoya */; };
+		EC2930672D2B9C31008B33CC /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930662D2B9C31008B33CC /* Moya */; };
+		EC2930692D2B9C31008B33CC /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930682D2B9C31008B33CC /* ReactiveMoya */; };
+		EC29306B2D2B9C31008B33CC /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = EC29306A2D2B9C31008B33CC /* RxMoya */; };
+		EC29306D2D2B9C47008B33CC /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = EC29306C2D2B9C47008B33CC /* Swinject */; };
+		EC2930712D2B9C58008B33CC /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930702D2B9C58008B33CC /* Swinject */; };
+		EC29307B2D2BA7C0008B33CC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EC29307A2D2BA7C0008B33CC /* SwiftSoup */; };
+		EC29307E2D2BA7D2008B33CC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EC29307D2D2BA7D2008B33CC /* SwiftSoup */; };
+		EC2930802D2BA7DB008B33CC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EC29307F2D2BA7DB008B33CC /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EC2930162D252EE9008B33CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC29305B2D2B9C0C008B33CC /* RxMoya in Frameworks */,
+				EC2930512D2B8923008B33CC /* Swinject in Frameworks */,
+				EC2930572D2B9C0C008B33CC /* Moya in Frameworks */,
+				EC2930592D2B9C0C008B33CC /* ReactiveMoya in Frameworks */,
+				EC2930552D2B9C0C008B33CC /* CombineMoya in Frameworks */,
+				EC29307B2D2BA7C0008B33CC /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC29305F2D2B9C21008B33CC /* Moya in Frameworks */,
+				EC29306D2D2B9C47008B33CC /* Swinject in Frameworks */,
+				EC29305D2D2B9C21008B33CC /* CombineMoya in Frameworks */,
+				EC2930632D2B9C21008B33CC /* RxMoya in Frameworks */,
+				EC2930612D2B9C21008B33CC /* ReactiveMoya in Frameworks */,
+				EC29307E2D2BA7D2008B33CC /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +112,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2930672D2B9C31008B33CC /* Moya in Frameworks */,
+				EC2930712D2B9C58008B33CC /* Swinject in Frameworks */,
+				EC2930652D2B9C31008B33CC /* CombineMoya in Frameworks */,
+				EC29306B2D2B9C31008B33CC /* RxMoya in Frameworks */,
+				EC2930692D2B9C31008B33CC /* ReactiveMoya in Frameworks */,
+				EC2930802D2BA7DB008B33CC /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +130,7 @@
 				EC2930032D252EE7008B33CC /* MichigoCalendar */,
 				EC2930182D252EE9008B33CC /* MichigoCalendarTests */,
 				EC2930222D252EE9008B33CC /* MichigoCalendarUITests */,
+				EC29307C2D2BA7D2008B33CC /* Frameworks */,
 				EC2930022D252EE7008B33CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +143,13 @@
 				EC29301F2D252EE9008B33CC /* MichigoCalendarUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC29307C2D2BA7D2008B33CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +172,12 @@
 			);
 			name = MichigoCalendar;
 			packageProductDependencies = (
+				EC2930502D2B8923008B33CC /* Swinject */,
+				EC2930542D2B9C0C008B33CC /* CombineMoya */,
+				EC2930562D2B9C0C008B33CC /* Moya */,
+				EC2930582D2B9C0C008B33CC /* ReactiveMoya */,
+				EC29305A2D2B9C0C008B33CC /* RxMoya */,
+				EC29307A2D2BA7C0008B33CC /* SwiftSoup */,
 			);
 			productName = MichigoCalendar;
 			productReference = EC2930012D252EE7008B33CC /* MichigoCalendar.app */;
@@ -148,6 +201,12 @@
 			);
 			name = MichigoCalendarTests;
 			packageProductDependencies = (
+				EC29305C2D2B9C21008B33CC /* CombineMoya */,
+				EC29305E2D2B9C21008B33CC /* Moya */,
+				EC2930602D2B9C21008B33CC /* ReactiveMoya */,
+				EC2930622D2B9C21008B33CC /* RxMoya */,
+				EC29306C2D2B9C47008B33CC /* Swinject */,
+				EC29307D2D2BA7D2008B33CC /* SwiftSoup */,
 			);
 			productName = MichigoCalendarTests;
 			productReference = EC2930152D252EE9008B33CC /* MichigoCalendarTests.xctest */;
@@ -171,6 +230,12 @@
 			);
 			name = MichigoCalendarUITests;
 			packageProductDependencies = (
+				EC2930642D2B9C31008B33CC /* CombineMoya */,
+				EC2930662D2B9C31008B33CC /* Moya */,
+				EC2930682D2B9C31008B33CC /* ReactiveMoya */,
+				EC29306A2D2B9C31008B33CC /* RxMoya */,
+				EC2930702D2B9C58008B33CC /* Swinject */,
+				EC29307F2D2BA7DB008B33CC /* SwiftSoup */,
 			);
 			productName = MichigoCalendarUITests;
 			productReference = EC29301F2D252EE9008B33CC /* MichigoCalendarUITests.xctest */;
@@ -208,6 +273,11 @@
 			);
 			mainGroup = EC292FF82D252EE7008B33CC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */,
+				EC2930492D2B8309008B33CC /* XCRemoteSwiftPackageReference "Swinject" */,
+				EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EC2930022D252EE7008B33CC /* Products */;
 			projectDirPath = "";
@@ -295,6 +365,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MichigoCalendar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,7 +375,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -326,6 +397,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MichigoCalendar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,7 +407,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -508,6 +580,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B46C3NZC6Z;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,6 +598,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B46C3NZC6Z;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.derek.MichigoCalendarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,6 +649,126 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		EC2930492D2B8309008B33CC /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC2930502D2B8923008B33CC /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930492D2B8309008B33CC /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		EC2930542D2B9C0C008B33CC /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		EC2930562D2B9C0C008B33CC /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		EC2930582D2B9C0C008B33CC /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		EC29305A2D2B9C0C008B33CC /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		EC29305C2D2B9C21008B33CC /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		EC29305E2D2B9C21008B33CC /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		EC2930602D2B9C21008B33CC /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		EC2930622D2B9C21008B33CC /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		EC2930642D2B9C31008B33CC /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		EC2930662D2B9C31008B33CC /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		EC2930682D2B9C31008B33CC /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		EC29306A2D2B9C31008B33CC /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		EC29306C2D2B9C47008B33CC /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930492D2B8309008B33CC /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		EC2930702D2B9C58008B33CC /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930492D2B8309008B33CC /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		EC29307A2D2BA7C0008B33CC /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		EC29307D2D2BA7D2008B33CC /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		EC29307F2D2BA7DB008B33CC /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC292FF92D252EE7008B33CC /* Project object */;
 }
