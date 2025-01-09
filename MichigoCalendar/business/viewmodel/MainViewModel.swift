@@ -95,6 +95,7 @@ class MainViewModel: ObservableObject {
 
                                 DispatchQueue.main.async {
                                     self?.gameSchedule.append(schedule)
+                                    self?.gameSchedule.sort(by: { $0.date < $1.date })
                                     print("HTML Response: \(html)")
                                 }
                             }

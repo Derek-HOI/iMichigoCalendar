@@ -25,6 +25,10 @@
 		EC29307B2D2BA7C0008B33CC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EC29307A2D2BA7C0008B33CC /* SwiftSoup */; };
 		EC29307E2D2BA7D2008B33CC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EC29307D2D2BA7D2008B33CC /* SwiftSoup */; };
 		EC2930802D2BA7DB008B33CC /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = EC29307F2D2BA7DB008B33CC /* SwiftSoup */; };
+		EC2930A52D2F99D5008B33CC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930A42D2F99D5008B33CC /* FirebaseAnalytics */; };
+		EC2930A72D2F99D5008B33CC /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930A62D2F99D5008B33CC /* FirebaseCrashlytics */; };
+		EC2930A92D2F99D5008B33CC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930A82D2F99D5008B33CC /* FirebaseMessaging */; };
+		EC2930AB2D2F99D5008B33CC /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = EC2930AA2D2F99D5008B33CC /* FirebasePerformance */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,10 +90,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2930A92D2F99D5008B33CC /* FirebaseMessaging in Frameworks */,
+				EC2930A52D2F99D5008B33CC /* FirebaseAnalytics in Frameworks */,
+				EC2930AB2D2F99D5008B33CC /* FirebasePerformance in Frameworks */,
 				EC29305B2D2B9C0C008B33CC /* RxMoya in Frameworks */,
 				EC2930512D2B8923008B33CC /* Swinject in Frameworks */,
 				EC2930572D2B9C0C008B33CC /* Moya in Frameworks */,
 				EC2930592D2B9C0C008B33CC /* ReactiveMoya in Frameworks */,
+				EC2930A72D2F99D5008B33CC /* FirebaseCrashlytics in Frameworks */,
 				EC2930552D2B9C0C008B33CC /* CombineMoya in Frameworks */,
 				EC29307B2D2BA7C0008B33CC /* SwiftSoup in Frameworks */,
 			);
@@ -178,6 +186,10 @@
 				EC2930582D2B9C0C008B33CC /* ReactiveMoya */,
 				EC29305A2D2B9C0C008B33CC /* RxMoya */,
 				EC29307A2D2BA7C0008B33CC /* SwiftSoup */,
+				EC2930A42D2F99D5008B33CC /* FirebaseAnalytics */,
+				EC2930A62D2F99D5008B33CC /* FirebaseCrashlytics */,
+				EC2930A82D2F99D5008B33CC /* FirebaseMessaging */,
+				EC2930AA2D2F99D5008B33CC /* FirebasePerformance */,
 			);
 			productName = MichigoCalendar;
 			productReference = EC2930012D252EE7008B33CC /* MichigoCalendar.app */;
@@ -277,6 +289,7 @@
 				EC2930482D27E5DB008B33CC /* XCRemoteSwiftPackageReference "Moya" */,
 				EC2930492D2B8309008B33CC /* XCRemoteSwiftPackageReference "Swinject" */,
 				EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				EC2930A32D2F99D4008B33CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EC2930022D252EE7008B33CC /* Products */;
@@ -675,6 +688,14 @@
 				minimumVersion = 2.7.6;
 			};
 		};
+		EC2930A32D2F99D4008B33CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -767,6 +788,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EC2930792D2BA7C0008B33CC /* XCRemoteSwiftPackageReference "SwiftSoup" */;
 			productName = SwiftSoup;
+		};
+		EC2930A42D2F99D5008B33CC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930A32D2F99D4008B33CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EC2930A62D2F99D5008B33CC /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930A32D2F99D4008B33CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		EC2930A82D2F99D5008B33CC /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930A32D2F99D4008B33CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		EC2930AA2D2F99D5008B33CC /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2930A32D2F99D4008B33CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

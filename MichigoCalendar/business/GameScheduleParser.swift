@@ -36,11 +36,16 @@ extension Document {
     /// GameState를 HTML에서 파싱
     func getGameState() -> GameState {
         let finishMatchElement = try? select(DivFinishMatch).first()
-        if let resultElement = try? finishMatchElement?.select(SpanResult).first(),
-           resultElement.hasClass(SpanResultSep) == true {
-            return .finished
+        if let resultElement = try? finishMatchElement?.select(SpanResult).first() {
+            if resultElement.hasClass(SpanResultPlan) {
+                return .upcoming
+            } else if resultElement.hasClass(SpanResultFinish) {
+                return .finished
+            } else {
+                return .ongoing
+            }
         } else if finishMatchElement != nil {
-            return .ongoing
+            return .upcoming
         } else {
             return .upcoming
         }
